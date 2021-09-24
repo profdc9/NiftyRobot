@@ -113,28 +113,6 @@ F 3 "" H 4350 1400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J8
-U 1 1 614931F7
-P 6700 1400
-F 0 "J8" H 6700 1700 50  0000 C CNN
-F 1 "Conn_01x06" H 6700 1000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 6700 1400 50  0001 C CNN
-F 3 "" H 6700 1400 50  0001 C CNN
-	1    6700 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x06 J7
-U 1 1 614931FD
-P 5900 1400
-F 0 "J7" H 5900 1700 50  0000 C CNN
-F 1 "Conn_01x06" H 5900 1000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5900 1400 50  0001 C CNN
-F 3 "" H 5900 1400 50  0001 C CNN
-	1    5900 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Conn_01x02 J9
 U 1 1 61493710
 P 1300 2700
@@ -908,18 +886,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 1700 4550 1700
 Wire Wire Line
-	6500 1200 6100 1200
-Wire Wire Line
-	6500 1300 6100 1300
-Wire Wire Line
-	6500 1400 6100 1400
-Wire Wire Line
-	6500 1500 6100 1500
-Wire Wire Line
-	6500 1600 6100 1600
-Wire Wire Line
-	6500 1700 6100 1700
-Wire Wire Line
 	1950 2700 1500 2700
 Wire Wire Line
 	1950 2600 1500 2600
@@ -1316,4 +1282,125 @@ Wire Wire Line
 	5950 6050 5950 6150
 Wire Wire Line
 	5850 6050 5850 6150
+$Comp
+L Conn_01x04 J7
+U 1 1 614A8BCB
+P 7150 1550
+F 0 "J7" H 7150 1750 50  0000 C CNN
+F 1 "Conn_01x04" H 7150 1250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7150 1550 50  0001 C CNN
+F 3 "" H 7150 1550 50  0001 C CNN
+	1    7150 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x04 J8
+U 1 1 614A8BD1
+P 7700 1550
+F 0 "J8" H 7700 1750 50  0000 C CNN
+F 1 "Conn_01x04" H 7700 1250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7700 1550 50  0001 C CNN
+F 3 "" H 7700 1550 50  0001 C CNN
+	1    7700 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7350 1650 7500 1650
+Wire Wire Line
+	7350 1550 7500 1550
+Wire Wire Line
+	7500 1450 7350 1450
+Wire Wire Line
+	7350 1350 7500 1350
+$Comp
+L C_Small C5
+U 1 1 614A9377
+P 7450 1950
+F 0 "C5" H 7460 2020 50  0000 L CNN
+F 1 "100 nF" H 7460 1870 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7450 1950 50  0001 C CNN
+F 3 "" H 7450 1950 50  0001 C CNN
+	1    7450 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x03 J66
+U 1 1 614A96E7
+P 8300 1550
+F 0 "J66" H 8300 1750 50  0000 C CNN
+F 1 "Conn_01x03" H 8300 1350 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 8300 1550 50  0001 C CNN
+F 3 "" H 8300 1550 50  0001 C CNN
+	1    8300 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7350 1650 7350 2100
+Wire Wire Line
+	7550 1950 7550 1750
+Wire Wire Line
+	7550 1750 7450 1750
+Wire Wire Line
+	7450 1750 7450 1200
+Connection ~ 7450 1350
+Wire Wire Line
+	8100 1650 8100 2100
+Wire Wire Line
+	8100 2100 7350 2100
+Connection ~ 7350 1950
+$Comp
+L Conn_01x01 J65
+U 1 1 614AA427
+P 7900 1700
+F 0 "J65" H 7900 1800 50  0000 C CNN
+F 1 "Conn_01x01" H 7900 1600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7900 1700 50  0001 C CNN
+F 3 "" H 7900 1700 50  0001 C CNN
+	1    7900 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 1550 8100 1550
+Wire Wire Line
+	8000 1550 8000 1200
+Wire Wire Line
+	8000 1200 7450 1200
+Wire Wire Line
+	7900 1500 7900 1450
+Wire Wire Line
+	7900 1450 8100 1450
+$Comp
+L Conn_01x06 J68
+U 1 1 614BD3BF
+P 6500 1400
+F 0 "J68" H 6500 1700 50  0000 C CNN
+F 1 "Conn_01x06" H 6500 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 6500 1400 50  0001 C CNN
+F 3 "" H 6500 1400 50  0001 C CNN
+	1    6500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J67
+U 1 1 614BD3C5
+P 5700 1400
+F 0 "J67" H 5700 1700 50  0000 C CNN
+F 1 "Conn_01x06" H 5700 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5700 1400 50  0001 C CNN
+F 3 "" H 5700 1400 50  0001 C CNN
+	1    5700 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1200 5900 1200
+Wire Wire Line
+	6300 1300 5900 1300
+Wire Wire Line
+	6300 1400 5900 1400
+Wire Wire Line
+	6300 1500 5900 1500
+Wire Wire Line
+	6300 1600 5900 1600
+Wire Wire Line
+	6300 1700 5900 1700
 $EndSCHEMATC
