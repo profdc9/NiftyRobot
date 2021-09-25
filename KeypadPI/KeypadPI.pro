@@ -1,4 +1,4 @@
-update=9/24/2021 5:55:54 PM
+update=9/24/2021 8:03:10 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -61,8 +59,8 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=L298
-LibName34=lm35
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
