@@ -1218,9 +1218,7 @@ F 3 "" H 6450 6350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6250 5200 6150 5100
-Wire Wire Line
-	6150 5100 6150 5050
+	6150 5050 6150 5500
 Wire Wire Line
 	6050 5450 6050 5550
 Wire Wire Line
@@ -1245,16 +1243,10 @@ Connection ~ 6350 5500
 Wire Wire Line
 	6250 5450 6250 5550
 Wire Wire Line
-	6250 5500 6250 5200
+	6250 5050 6250 5500
 Connection ~ 6250 5500
 Wire Wire Line
 	6150 5450 6150 5550
-Wire Wire Line
-	6150 5500 6150 5200
-Wire Wire Line
-	6150 5200 6250 5100
-Wire Wire Line
-	6250 5100 6250 5050
 Connection ~ 6150 5500
 Wire Wire Line
 	7050 6050 7050 6150
