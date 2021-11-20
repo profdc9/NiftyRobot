@@ -143,8 +143,6 @@ Text Label 7200 3450 2    60   ~ 0
 GPIO16
 Text Label 7200 2850 2    60   ~ 0
 GPIO20
-Text Label 6350 4850 2    60   ~ 0
-GPIO21
 Text Label 7200 4000 2    60   ~ 0
 GPIO26
 Text Label 9400 1500 1    60   ~ 0
