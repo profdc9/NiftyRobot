@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ControlBoard-rescue")(type "Legacy")(uri "${KIPRJMOD}/ControlBoard-rescue.lib")(options "")(descr ""))
+  (lib (name "L298")(type "Legacy")(uri "${KIPRJMOD}/L298.lib")(options "")(descr ""))
+  (lib (name "lm35")(type "Legacy")(uri "${KIPRJMOD}/lm35.lib")(options "")(descr ""))
+)
